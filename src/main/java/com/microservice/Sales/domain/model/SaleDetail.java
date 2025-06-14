@@ -32,15 +32,32 @@ public class SaleDetail {
 
     // Getters y setters...
 
-    public void setProductId(Integer productId) {
-    this.productId = productId;
+   public Integer getProductId() {
+    return productId;
 }
 
-public void setQuantity(Integer quantity) {
-    this.quantity = quantity;
+public Integer getQuantity() {
+    return quantity;
 }
 
-public void setPrice(Float price) {
-    this.price = price;
+public Float getPrice() {
+    return price;
 }
+
+public void setSubtotal(float subtotal) {
+    
+}
+
+    public void setPrice(Float price) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public void setProductId(Long productId) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public void setQuantity(Integer quantity) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
 }

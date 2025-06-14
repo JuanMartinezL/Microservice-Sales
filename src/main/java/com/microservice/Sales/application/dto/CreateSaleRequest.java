@@ -18,12 +18,12 @@ public class CreateSaleRequest {
     }
 
     public static class Item {
-        private Integer productId;
+        private Long productId;
         private Integer quantity;
         private Float price;
 
         // Getters y setters
-        public Integer getProductId() {
+        public Long getProductId() {
     return productId;
 }
 

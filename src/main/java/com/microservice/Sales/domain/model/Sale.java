@@ -54,4 +54,8 @@ public class Sale {
     public List<SaleDetail> getSaleDetails() {
         return saleDetails;
     }
+
+    public void setTotal(float total) {
+        this.total = total;
+    }
 }
