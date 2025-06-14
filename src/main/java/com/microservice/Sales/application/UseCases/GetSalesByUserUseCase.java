@@ -1,7 +1,7 @@
 package com.microservice.Sales.application.UseCases;
 
 import com.microservice.Sales.domain.model.Sale;
-import com.microservice.sales.domain.ISaleRepository;
+import com.microservice.Sales.domain.ISaleRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

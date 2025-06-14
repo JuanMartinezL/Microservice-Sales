@@ -1,4 +1,4 @@
-package com.microservice.sales.domain;
+package com.microservice.Sales.domain;
 
 import com.microservice.Sales.domain.model.Sale;
 
